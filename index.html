@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JOSH WEB</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/img/favcon.png" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="head1">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img src="/img/favcon.png" width="30px" height="30px" />
+              <b>JOSH WEB</b></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="about.html"
+                    ><b>ABOUT ME</b></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="contact.html"
+                    ><b>CONTACT</b></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="container">
+          <div class="row">
+            <div class="col text-black">
+              <div class="typewriter">
+                <h1>Hi 👋, I'm Josh!</h1>
+                <p id="line-1">
+                  I'm a web developer and source code contributor.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <br /><br />
+      <section class="bg-light text-center">
+        <h1>Article</h1>
+        <p>latest news, updates, and stories for developers</p>
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <a href="https://web.dev/svgcode/"
+              target="_blank">
+                <img
+                src="img/blog1.jpg"
+                class="d-block w-100 img-thumbnail"
+                alt="..."
+              />
+              </a>
+              <div class="carousel-caption d-none d-md-block text-white">
+                <h5>
+                  SVGcode: a PWA to convert raster images to SVG vector graphics
+                </h5>
+                <p>
+                  SVGcode is a Progressive Web App that lets you convert raster
+                  images like JPG, PNG, GIF, WebP, AVIF, etc. to vector graphics
+                  in SVG format. It uses the File System Access API, the Async
+                  Clipboard API, the File Handling API, and Window Controls
+                  Overlay customization.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <a href="https://web.dev/mailru-cwv/"
+              target="_blank">
+                <img
+                src="img/blog2.png"
+                class="d-block w-100 img-thumbnail"
+                alt="..."
+              />
+              </a>
+
+              <div class="carousel-caption d-none d-md-block">
+                <h5>
+                  Improving Core Web Vitals on the Mail.ru home page resulted in
+                  an average 10% increase in conversion rates
+                </h5>
+                <p>
+                  Several months of work to improve Core Web Vitals on the home
+                  page of Mail.ru resulted in a 60% increase in the 75th
+                  percentile in Cumulative Layout Shift (CLS), boosting average
+                  session time by 2.7% and conversion rates of core sections by
+                  more than 10%.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="https://web.dev/building-a-3d-game-menu-component/"
+              target="_blank">
+                <img
+                src="img/blog3.png"
+                class="d-block w-100 img-thumbnail"
+                alt="..."
+              />
+              </a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Building a 3D game menu component</h5>
+                <p>
+                  A foundational overview of how to build a responsive,
+                  adaptive, and accessible 3D game menu.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <br /><br />
+      <footer class="" style="background-color: #d7f4ee">
+        <div class="container">
+          <div class="row text-center text-black">
+            <div class="col">
+              <h5>&copy 2021 JOSH WEB. All Rights Reserved.</h5>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
